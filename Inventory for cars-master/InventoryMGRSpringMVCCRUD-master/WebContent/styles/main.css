@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+}
+
+* h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+* h2, h3, h4, p, a, blockquote {
+    font-family: 'Quicksand', serif;
+}
+
+body {
+    padding: 50px 0 0 0;
+}
+
+h4 a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bold1 {
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.center {
+    text-align: center;
+}
+
+.image img {
+	max-height: 300px;
+	width: auto;
+}
+
+
+/* NavBar */
+
+.navbar-default {
+    background-color: #12b1e6;
+    border: none;
+}
+
+#logo {
+    color: #fff;
+    padding: 0;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #12b1e6;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #2f7a94;
+}
+
+.icon-bar {
+    background-color: #ecf035 !important;
+}
+
+#logo img {
+    height: 100%;
+    padding: 5px 18px;
+    width: auto;
+}
+
+#myNavbar {
+    padding: 0;
+}
+
+#myNavbar a {
+    color: #eeeeee;
+    text-transform: uppercase;
+    margin: 0 0 0 8px;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+
+.navbar h4 {
+    color: #fff;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#myNavbar a:hover {
+    text-align: center;
+    color: #ffa308;
+}
+
+.active a {
+    color: #fff !important;
+    background-color: #2f7a94 !important;
+    font-style: italic;
+}
+
+.mainBackground {
+    margin:0 auto;
+    height: 50vh;
+    width: auto;
+}
+
+.mainBackgroundImage {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainBackgroundImage img {
+    height: 60vh;
+    padding-right: 30px;
+}
+
+.dropdown-menu {
+  background-color: #12b1e6;
+}
+
+.navbar.navbar-default .dropdown-menu > li > a:hover,
+.navbar.navbar-default .dropdown-menu>li>a:focus {
+  background-color: #2f7a94 !important;
+}
+
+.navbar.navbar-default .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.open.active > .dropdown-toggle {
+  background: #2f7a94;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: rgba(255, 255, 255, 0.85);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    padding: 5px;
+    z-index: 10;
+}
+
+.footer p, a {
+    font-size: calc(.7em + .2vw);
+    color: #878686;
+    
+}
+
+.footer a:hover {
+    color: #2f7a94;
+}
+
+@media only screen and (max-width: 300px) {
+    footer {
+        height: 50px;
+        padding: 5px;
+    }
+}
+
+
+#inventorylist #container {
+	margin: 0;
+	width: 100%;
+}
+
+table {
+	margin-bottom: 50px;
+}
+
+table tr {
+	width: 100%;
+	text-align: center;
+}
+
+table th {
+    font-weight: bold;
+    padding-left: 80px;
+
+}
+
+table td {
+	text-align:right;
+	padding-top: 10px;
+	padding-left: 1px;
+}
+
+
+
+.viewButton {
+	padding-left: 20px;
+}
+
+.addButtonTop {
+	position:fixed;
+	right:0;
+}
+
+.thead-inverse {
+	background: #12b1e6;
+	color: black;
+}
+#addStyle
+
+.addForm {
+    padding-top: 50px;
+    margin:0 auto;
+    text-align: left;
+}
+
+.addField {
+	width: 30vw;
+}
+
+
+#DeleteStyle
+.deleteForm {
+    padding-top: 50px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.deleteForm > input{
+	width: 5vw;
+}
+
+.editForm {
+    padding-top: 50px;
+    margin:0 auto;
+    text-align: left;
+}
+
+.editField {
+	width: 30vw;
+}
+
+
+
+.contact-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact-content h1 {
+    font-size: 4vw;
+}
+
+.contact-content a {
+    color: #333333;
+}
+
+.contact-content p {
+    font-size: 20px;
+}
+
+
+.contact-content ul {
+    padding: 20px 0 40px 0;
+}
+
+.contact-content li {
+    line-height: 3em;
+}
+
+#social-list {
+    margin: 0;
+}
+
+
+
+
+.user p {
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
+.user img {
+	width: 15px
+}
+
+#myNavbar .user a {
+	text-align: right;
+	font-weight: 2000;
+	font-size: 12px;
+	padding-right:5px
+	
+}
+
+#myNavbar p {
+    color: #eeeeee;
+    text-transform: uppercase;
+    margin: 0 0 0 8px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+}
+
